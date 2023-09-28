@@ -1,10 +1,12 @@
 {
-    "name": "John Doe",
-    "quote": "A passionate software developer with an eye for design.",
+    "firstname": "Andrew",
+    "lastname": "Smith",
+    "img": "persona_img.jpg",
+    "quote": "A casual gamer who likes to play fighting games.",
     "demographic": {
-        "age": "30",
+        "age": "20",
         "maritalStatus": "Single",
-        "location": "New York",
+        "location": "New York City, New York",
         "educationLevel": "Bachelor's in Computer Science",
         "job": "Software Developer",
         "primaryResponsibilities": "Developing web applications, maintaining codebase, and collaborating with design teams.",
@@ -12,24 +14,24 @@
         "organizationSize": "500 employees",
         "jobMeasurement": "Project completion, Code quality",
         "reportTo": "Team Lead",
-        "interests": "Photography, Music",
+        "interests": "Fighting Games, Music",
         "favoriteBrands": "Apple, Sony",
-        "toolsInFreeTime": "Adobe Lightroom, Spotify",
+        "toolsInFreeTime": "Playstation, Spotify",
         "jobTools": "Visual Studio Code, Git",
-        "preferredCommunication": "Email",
-        "informationSource": "Tech Blogs, Conferences",
-        "socialNetworks": "LinkedIn, Twitter"
+        "preferredCommunication": "Discord",
+        "informationSource": "Tech Blogs, Social Media",
+        "socialNetworks": "Instagram, Twitter"
     },
     "needsGoals": {
-        "needs": "A robust code review tool",
-        "situationsForNeeds": "During sprint end, before deployments",
-        "goals": "To improve code quality and efficiency",
-        "challenges": "Dealing with legacy code",
-        "currentSolutions": "GitHub, Bitbucket"
+        "needs": "A fun way to spend free time",
+        "situationsForNeeds": "After a long day of work",
+        "goals": "To have fun with firends and compete",
+        "challenges": "Does not know the controls of the game",
+        "currentSolutions": "In game controls and Wiki pages"
     },
-    "scenario": "John wants a tool that integrates easily with his existing tech stack and provides insightful feedback about code quality.",
+    "scenario": "Andrew wants a fun way to spend free time after work but is not familiar with the controls of popular fighting games.",
     "usp": {
-        "benefits": "Automated code review, seamless integration",
-        "solutionsImpact": "Saves time in manual reviews, reduces bugs"
+        "benefits": "Detailed information on combos and playstyles",
+        "solutionsImpact": "Teaches combos and helps the user improve at the game"
     }
 }

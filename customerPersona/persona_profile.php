@@ -16,8 +16,12 @@ $data = json_decode(file_get_contents('persona_data.json'), true);
 
     <!-- Name Section -->
     <section id="name">
-        <h1><?php echo $data['name']; ?></h1>
-    </section>
+    <img src="<?php echo $data['img']; ?>" alt="Persona Image" class="persona-image">
+    <div class="name-text">
+        <h2 style="border-bottom: none; padding-bottom: 0em;"><?php echo $data['firstname']; ?></h2>
+        <h2 style="border-bottom: none; padding-bottom: 0em;"><?php echo $data['lastname']; ?></h2>
+    </div>
+</section>
 
     <!-- Quote Section -->
     <section id="quote">

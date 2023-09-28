@@ -36,3 +36,21 @@ strong {
     font-weight: bold;
     color: #7289DA;
 }
+
+#name {
+    display: flex;
+    align-items: center;  /* This will vertically center the text with the image */
+    justify-content: flex-start;  /* This will align the items to the left */
+}
+
+.persona-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 10px;  /* Adjusted the spacing between image and name */
+    border: 3px solid #7289DA;
+}
+
+.name-text h2 {
+    margin: 0;  /* Resetting any default margins */
+}
