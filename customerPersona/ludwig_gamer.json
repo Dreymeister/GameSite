@@ -1,0 +1,37 @@
+{
+    "firstname": "Ludwig",
+    "lastname": "Garasson",
+    "img": "lud.png",
+    "quote": "A casual gamer who likes to play fighting games, also a professional Twitch streamer.",
+    "demographic": {
+        "age": "20",
+        "maritalStatus": "Single",
+        "location": "New York City, New York",
+        "educationLevel": "Bachelor's in Art Sciences",
+        "job": "Software Developer",
+        "primaryResponsibilities": "Developing web applications, maintaining codebase, and collaborating with design teams.",
+        "industry": "Tech",
+        "organizationSize": "500 employees",
+        "jobMeasurement": "Project completion, Code quality",
+        "reportTo": "Team Lead",
+        "interests": "Fighting Games, Music",
+        "favoriteBrands": "Apple, Sony",
+        "toolsInFreeTime": "Playstation, Spotify",
+        "jobTools": "Visual Studio Code, Git",
+        "preferredCommunication": "Discord",
+        "informationSource": "Tech Blogs, Social Media",
+        "socialNetworks": "Instagram, Twitter"
+    },
+    "needsGoals": {
+        "needs": "A fun way to spend free time",
+        "situationsForNeeds": "After a long day of work",
+        "goals": "To have fun with firends and compete",
+        "challenges": "Does not know the controls of the game",
+        "currentSolutions": "In game controls and Wiki pages"
+    },
+    "scenario": "Andrew wants a fun way to spend free time after work but is not familiar with the controls of popular fighting games.",
+    "usp": {
+        "benefits": "Detailed information on combos and playstyles",
+        "solutionsImpact": "Teaches combos and helps the user improve at the game"
+    }
+}
