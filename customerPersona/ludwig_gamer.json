@@ -1,23 +1,23 @@
 {
-    "firstname": "Ludwig",
-    "lastname": "Garasson",
+    "firstname": "John",
+    "lastname": "Noober",
     "img": "lud.png",
-    "quote": "A casual gamer who likes to play fighting games, also a professional Twitch streamer.",
+    "quote": "A new gamer who is interested in fighting games.",
     "demographic": {
-        "age": "20",
+        "age": "18",
         "maritalStatus": "Single",
-        "location": "New York City, New York",
+        "location": "Cincinnatti, Ohio",
         "educationLevel": "Bachelor's in Art Sciences",
-        "job": "Software Developer",
-        "primaryResponsibilities": "Developing web applications, maintaining codebase, and collaborating with design teams.",
+        "job": "Unemployed/Part time job",
+        "primaryResponsibilities": "None/Part time job",
         "industry": "Tech",
-        "organizationSize": "500 employees",
-        "jobMeasurement": "Project completion, Code quality",
+        "organizationSize": "x employees",
+        "jobMeasurement": "Shift completion",
         "reportTo": "Team Lead",
         "interests": "Fighting Games, Music",
         "favoriteBrands": "Apple, Sony",
         "toolsInFreeTime": "Playstation, Spotify",
-        "jobTools": "Visual Studio Code, Git",
+        "jobTools": "When I Work(shift app)",
         "preferredCommunication": "Discord",
         "informationSource": "Tech Blogs, Social Media",
         "socialNetworks": "Instagram, Twitter"
@@ -25,11 +25,11 @@
     "needsGoals": {
         "needs": "A fun way to spend free time",
         "situationsForNeeds": "After a long day of work",
-        "goals": "To have fun with firends and compete",
-        "challenges": "Does not know the controls of the game",
-        "currentSolutions": "In game controls and Wiki pages"
+        "goals": "To have fun with friends and compete",
+        "challenges": "Does not know the controls of the game and is very new",
+        "currentSolutions": "In game controls and Wiki pages or YouTube"
     },
-    "scenario": "Andrew wants a fun way to spend free time after work but is not familiar with the controls of popular fighting games.",
+    "scenario": "John is new to games and want to learn fighting games but has no ways to play it.",
     "usp": {
         "benefits": "Detailed information on combos and playstyles",
         "solutionsImpact": "Teaches combos and helps the user improve at the game"
