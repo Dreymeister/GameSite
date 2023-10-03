@@ -2,7 +2,9 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #000; /* Set the background color to dark blue */
+    background-image: url('background.jpg'); /* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
     color: #fff; /* Set the text color to white */
     font-family: Arial, sans-serif;
 }
