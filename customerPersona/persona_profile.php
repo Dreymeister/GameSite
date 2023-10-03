@@ -1,5 +1,5 @@
 <?php
-$data = json_decode(file_get_contents('persona_data.json'), true);
+$data = json_decode(file_get_contents('pro_gamer.json'), true);
 ?>
 
 <!DOCTYPE html>

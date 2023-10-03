@@ -1,12 +1,12 @@
 {
-    "firstname": "Andrew",
-    "lastname": "Smith",
-    "img": "persona_img.jpg",
-    "quote": "A casual gamer who likes to play fighting games.",
+    "firstname": "Joe",
+    "lastname": "Gamer",
+    "img": "pro_gamer_image.jpg",
+    "quote": "A pro gamer who likes to play fighting games competitively.",
     "demographic": {
         "age": "20",
         "maritalStatus": "Single",
-        "location": "New York City, New York",
+        "location": "Los Angelas",
         "educationLevel": "Bachelor's in Computer Science",
         "job": "Software Developer",
         "primaryResponsibilities": "Developing web applications, maintaining codebase, and collaborating with design teams.",
@@ -14,9 +14,9 @@
         "organizationSize": "500 employees",
         "jobMeasurement": "Project completion, Code quality",
         "reportTo": "Team Lead",
-        "interests": "Fighting Games, Music",
+        "interests": "Fighting Games, Competitive Games",
         "favoriteBrands": "Apple, Sony",
-        "toolsInFreeTime": "Playstation, Spotify",
+        "toolsInFreeTime": "Computer, Spotify",
         "jobTools": "Visual Studio Code, Git",
         "preferredCommunication": "Discord",
         "informationSource": "Tech Blogs, Social Media",
@@ -25,11 +25,11 @@
     "needsGoals": {
         "needs": "A fun way to spend free time",
         "situationsForNeeds": "After a long day of work",
-        "goals": "To have fun with firends and compete",
-        "challenges": "Does not know the controls of the game",
-        "currentSolutions": "In game controls and Wiki pages"
+        "goals": "To compete in fighting games on a competitive level",
+        "challenges": "Too good at video games",
+        "currentSolutions": "Helping other gamers get gud"
     },
-    "scenario": "Andrew wants a fun way to spend free time after work but is not familiar with the controls of popular fighting games.",
+    "scenario": "Joe wants to focus on improving at the games he plays competitively, while also creating avenues for casual gamers to get better.",
     "usp": {
         "benefits": "Detailed information on combos and playstyles",
         "solutionsImpact": "Teaches combos and helps the user improve at the game"
