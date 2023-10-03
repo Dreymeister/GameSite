@@ -1,5 +1,12 @@
 <?php
-$data = json_decode(file_get_contents('persona_data.json'), true);
+$filename = isset($_GET['file']) ? $_GET['file'] : null;
+
+if ($filename && preg_match("/^[a-zA-Z0-9_\-]+\.json$/", $filename) && file_exists($filename)) {
+    $data = json_decode(file_get_contents($filename), true);
+} else {
+    // Handle error. For instance, redirect to an error page or display an error message.
+    die("Invalid file or file not found.");
+}
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +16,7 @@ $data = json_decode(file_get_contents('persona_data.json'), true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persona Profile</title>
-    <link rel="stylesheet" href="persona_style.css"> <!-- Add this line -->
+    <link rel="stylesheet" href="persona_style.css">
 </head>
 
 <body>
