@@ -1,0 +1,37 @@
+{
+    "firstname": "Joe",
+    "lastname": "Gamer",
+    "img": "pro_gamer_image.jpg",
+    "quote": "A pro gamer who likes to play fighting games competitively.",
+    "demographic": {
+        "age": "20",
+        "maritalStatus": "Single",
+        "location": "Los Angelas",
+        "educationLevel": "Bachelor's in Computer Science",
+        "job": "Software Developer",
+        "primaryResponsibilities": "Developing web applications, maintaining codebase, and collaborating with design teams.",
+        "industry": "Tech",
+        "organizationSize": "500 employees",
+        "jobMeasurement": "Project completion, Code quality",
+        "reportTo": "Team Lead",
+        "interests": "Fighting Games, Competitive Games",
+        "favoriteBrands": "Apple, Sony",
+        "toolsInFreeTime": "Computer, Spotify",
+        "jobTools": "Visual Studio Code, Git",
+        "preferredCommunication": "Discord",
+        "informationSource": "Tech Blogs, Social Media",
+        "socialNetworks": "Instagram, Twitter"
+    },
+    "needsGoals": {
+        "needs": "A fun way to spend free time",
+        "situationsForNeeds": "After a long day of work",
+        "goals": "To compete in fighting games on a competitive level",
+        "challenges": "Too good at video games",
+        "currentSolutions": "Helping other gamers get gud"
+    },
+    "scenario": "Joe wants to focus on improving at the games he plays competitively, while also creating avenues for casual gamers to get better.",
+    "usp": {
+        "benefits": "Detailed information on combos and playstyles",
+        "solutionsImpact": "Teaches combos and helps the user improve at the game"
+    }
+}

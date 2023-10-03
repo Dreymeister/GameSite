@@ -7,6 +7,7 @@ if ($filename && preg_match("/^[a-zA-Z0-9_\-]+\.json$/", $filename) && file_exis
     // Handle error. For instance, redirect to an error page or display an error message.
     die("Invalid file or file not found.");
 }
+
 ?>
 
 <!DOCTYPE html>
