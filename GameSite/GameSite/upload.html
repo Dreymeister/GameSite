@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Libraries - GameSite</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NavBar -->
+
+  <header class="header active" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/gamesite.png" width="110" height="53" alt="">
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="upload.html" class="navbar-link" data-nav-link>upload</a>
+          </li>
+          <li class="navbar-item">
+            <a href="controls.html" class="navbar-link" data-nav-link>controls</a>
+          </li>
+          <li class="navbar-item">
+            <a href="newgames.html" class="navbar-link" data-nav-link>new games</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="btn" data-btn>request to upload</a>
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+    </div>
+  </header>
+
+<!-- Main Title -->
+
+<div class="hero has-before" id="home">
+    <div class="container">
+
+        <h2 class="h2 section-title" data-reveal="bottom">
+         Request To Upload a Meta or Control Layout
+        </h2>
+  
+        <p class="section-text" data-reveal="bottom">
+          Use the Textbox below to upload your controls
+        </p>
+        <br>
+
+    </div>
+  </div>
+
+<!-- Upload Field -->
+
+<section class="section upload" aria-label="file uploads" id="upload">
+  <div class="container">
+
+      <h2 class="upload-title">Request to upload your controller layout on GameSite!</h2>
+
+      <h3 class="upload-title">Our Modterators and Team will Approve or Deny your request.<br>We want what is best for our Gamers!</h3>
+
+      <h2 class="upload-title">Upload Your Files</h2>
+
+      <form class="upload-form" enctype="multipart/form-data">
+          <div class="form-group">
+              <label for="fileInput">Upload an image:</label>
+              <input type="file" id="fileInput" name="fileInput" accept=".jpg, .png, .pdf" multiple>
+          </div>
+          <br>
+          <div class="form-group">
+              <h3 class="upload-title">Tell us why you would want to upload your controller layout:</h3>
+              <label for="description">Description:</label>
+              <textarea id="description" name="description" rows="4" placeholder="Add a description..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Upload</button>
+          <br>
+          <h2 class="upload-title">GameSite takes up to a week to process requests. Thank you for your patience.</h2>
+      </form>
+
+      <div class="upload-feedback">
+          <!-- Feedback messages or uploaded file list can be displayed here -->
+      </div>
+
+  </div>
+</section>
+
+
+<!-- Footer -->
+
+  <footer>
+    <footer class="footer">
+
+        <div class="section footer-top">
+          <div class="container">
+    
+            <div class="footer-brand">
+    
+              <a href="#" class="logo">
+                <img src="./assets/images/gamesite.png" width="150" height="73" loading="lazy" alt="Unigine logo">
+              </a>
+    
+              <p class="footer-text">
+                Our success in creating gaming solutions for all fighting games. Made by gamers, for gamers.
+              </p>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+            <div class="footer-list">
+    
+              <p class="title footer-list-title has-after">Usefull Links</p>
+    
+              <ul>
+    
+                <li>
+                  <a href="#" class="footer-link">Control FAQ</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Help Center</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Privacy and Policy</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Terms of Use</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Contact Us</a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+            <div class="footer-list">
+    
+              <p class="title footer-list-title has-after">Contact Us</p>
+    
+              <div class="contact-item">
+                <span class="span">Location:</span>
+    
+                <address class="contact-link">
+                  153 Williamson Plaza, Maggieberg, MT 09514
+                </address>
+              </div>
+    
+              <div class="contact-item">
+                <span class="span">Join Us:</span>
+    
+                <a href="mailto:owena5@nku.edu" class="contact-link">gamesitesupport@nku.edu</a>
+              </div>
+    
+              <div class="contact-item">
+                <span class="span">Phone:</span>
+    
+                <a href="tel:+12345678910" class="contact-link">+1 (234) 555-2134</a>
+              </div>
+    
+            </div>
+    
+            <div class="footer-list">
+    
+              <p class="title footer-list-title has-after">Weekly Newsletter Signup</p>
+    
+              <form action="./index.html" method="get" class="footer-form">
+                <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
+                  class="input-field">
+    
+                <button type="submit" class="btn" data-btn>Subscribe Now</button>
+              </form>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              &copy; 2023 GamSite - Created by Dreymeister - Inspired by CodeWithSadee via GitHub
+            </p>
+    
+          </div>
+        </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

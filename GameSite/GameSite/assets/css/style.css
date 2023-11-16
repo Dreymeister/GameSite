@@ -2,24 +2,11 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
 :root {
-
-  /**
-   * COLORS
-   */
-
   /* background color */
   --bg-purple: hsla(267, 100%, 63%, 1);
   --bg-purple-alpha-30: hsla(267, 100%, 63%, 0.3);
@@ -1023,7 +1010,65 @@ body {
 
   .upcoming-card.right .card-meta { left: 50%; }
 
+  .game-links {
+    text-align: center;
+}
 
+  /**
+   * Added by Dreymeister
+   */
+
+.game-links li {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  position: relative; /* Add this line */
+}
+
+.game-links li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 4px;
+  background: var(--bg-purple); /* Use --bg-purple or your desired color */
+  transition: width 0.3s; /* Adjust the duration as needed */
+}
+
+.game-links li:hover::after {
+  width: 100%;
+}
+ 
+.upload-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.upload-form {
+  text-align: left;
+}
+
+.upload-feedback {
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.form-group label {
+  /* Optional: Adjust label styles if needed */
+  text-align: left;
+  /* Additional styles */
+  margin-bottom: 10px; /* To provide space between label and textarea */
+}
+
+  /**
+   * End of Dreymeister. See you later!
+   */
 
   /**
    * NEWS
