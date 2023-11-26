@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Libraries - GameSite</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NavBar -->
+
+  <header class="header active" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/gamesite.png" width="110" height="53" alt="">
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="upload.html" class="navbar-link" data-nav-link>upload</a>
+          </li>
+          <li class="navbar-item">
+            <a href="controls.html" class="navbar-link" data-nav-link>controls</a>
+          </li>
+          <li class="navbar-item">
+            <a href="newgames.html" class="navbar-link" data-nav-link>new games</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="upload.html" class="btn" data-btn>request to upload</a>
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+    </div>
+  </header>
+
+<!-- Game Title & Desc. -->
+
+<div class="hero has-before" id="home">
+    <div class="container">
+
+        <h2 class="h2 section-title" data-reveal="bottom">
+         Mortal Combat 11 - Xbox
+        </h2>
+  
+        <p class="section-text" data-reveal="bottom">
+          Standard Controls for MK 11, played on Xbox or Microsoft based systems.
+        </p>
+        <br>
+
+    </div>
+  </div>
+
+<!-- Game Information Field -->
+
+<style>
+  .image-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .column {
+    flex: 0 0 48%; /* Adjust the width of columns */
+  }
+
+  .image-description img {
+    width: 100%; /* Ensure images take full width of their container */
+    max-width: 100%; /* Prevent images from exceeding their original size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default space below inline images */
+    margin-bottom: 10px; /* Add space between images and paragraphs */
+  }
+
+  .additional-content {
+    margin-bottom: 20px;
+  }
+</style>
+
+<section class="section upload" aria-label="file uploads" id="upload">
+  <div class="container">
+
+    <h2 class="upload-title">Mortal Kombat 11</h2>
+    <div class="image-columns">
+      <div class="column">
+        <div class="image-description">
+          <img src="assets/images/MKCover.jpg" alt="MK11XboxCont">
+          <h2 class="upload-title">About:</h2>
+          <p>Mortal Kombat 11" is a popular fighting video game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. It's part of the long-running "Mortal Kombat" series known for its brutal combat, unique characters, and over-the-top finishing moves called "Fatalities." The game features a diverse roster of fighters, each with their own special moves and abilities, and it's known for its engaging single-player story mode as well as its competitive multiplayer gameplay</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="image-description">
+          <img src="assets/images/XboxMK11.png" alt="Image 2">
+          <h2 class="upload-title">Controls:</h2>
+          <p>In "Mortal Kombat 11" on Xbox, the basic controls typically follow a standard configuration:
+            <br>
+            Moving: Use the left analog stick or directional pad.
+            <br>
+            Block: Press and hold the left trigger (LT).
+            <br>
+            Front Punch: Press the X button.
+            <br>
+            Back Punch: Press the Y button.
+            <br>
+            Front Kick: Press the A button.
+            <br>
+            Back Kick: Press the B button.
+            <br>
+            Interact: Press the right bumper (RB).
+            <br>
+            Throw: Press the left bumper (LB).
+            <br>
+            Switch Stance: Press the right trigger (RT).
+            <br>
+            Amplify/Interact/Environment Attack: Press the right trigger (RT) in combination with other buttons.
+            <br>
+            Remember, these controls might slightly vary based on your chosen controller layout or settings within the game. It's a good idea to check the in-game controls menu for precise information.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="additional-content">
+      <p>In "Mortal Kombat 11," controls play a pivotal role as they dictate how players engage within the game. These controls determine move execution, combos, defensive strategies, and character-specific abilities. Mastering these inputs is essential for executing devastating attacks, defending effectively, and learning each character's unique moveset. Precise control execution not only influences competitive play but also enhances the overall gaming experience, making the gameplay more immersive and enjoyable.</p>
+    </div>
+
+    <h2 class="upload-title">Please contact the team at GameSite.nku.edu if you happen to find an error or misconfiguration. Thanks!</h2>
+
+  </div>
+</section>
+
+
+<!-- Footer -->
+
+  <footer>
+    <footer class="footer">
+
+        <div class="section footer-top">
+          <div class="container">
+    
+            <div class="footer-brand">
+    
+              <a href="#" class="logo">
+                <img src="./assets/images/gamesite.png" width="150" height="73" loading="lazy" alt="Unigine logo">
+              </a>
+    
+              <p class="footer-text">
+                Our success in creating gaming solutions for all fighting games. Made by gamers, for gamers.
+              </p>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+            <div class="footer-list">
+    
+              <p class="title footer-list-title has-after">Usefull Links</p>
+    
+              <ul>
+    
+                <li>
+                  <a href="#" class="footer-link">Control FAQ</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Help Center</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Privacy and Policy</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Terms of Use</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Contact Us</a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+            <div class="footer-list">
+    
+              <p class="title footer-list-title has-after">Contact Us</p>
+    
+              <div class="contact-item">
+                <span class="span">Location:</span>
+    
+                <address class="contact-link">
+                  153 Williamson Plaza, Maggieberg, MT 09514
+                </address>
+              </div>
+    
+              <div class="contact-item">
+                <span class="span">Join Us:</span>
+    
+                <a href="mailto:owena5@nku.edu" class="contact-link">gamesitesupport@nku.edu</a>
+              </div>
+    
+              <div class="contact-item">
+                <span class="span">Phone:</span>
+    
+                <a href="tel:+12345678910" class="contact-link">+1 (234) 555-2134</a>
+              </div>
+    
+            </div>
+    
+            <div class="footer-list">
+    
+              <p class="title footer-list-title has-after">Weekly Newsletter Signup</p>
+    
+              <form action="./index.html" method="get" class="footer-form">
+                <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
+                  class="input-field">
+    
+                <button type="submit" class="btn" data-btn>Subscribe Now</button>
+              </form>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              &copy; 2023 GamSite - Created by Dreymeister - Inspired by CodeWithSadee via GitHub
+            </p>
+    
+          </div>
+        </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
