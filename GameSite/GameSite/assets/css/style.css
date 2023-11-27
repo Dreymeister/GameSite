@@ -315,26 +315,17 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-.header .btn { display: none; }
+.header .btn {
+  display: none;
+}
 
 .header {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   background-color: var(--bg-oxford-blue);
   padding: 10px 12px;
   z-index: 4;
-}
-
-.header.active {
-  position: fixed;
-  animation: slideUP 1s ease forwards;
-}
-
-@keyframes slideUP {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(0); }
 }
 
 .header .container {
@@ -352,15 +343,25 @@ body {
   transition: var(--transition-1);
 }
 
-.nav-toggle-btn .line-2 { width: 20px; }
+.nav-toggle-btn .line-2 {
+  width: 20px;
+}
 
-.nav-toggle-btn .line-3 { margin-inline-start: auto; }
+.nav-toggle-btn .line-3 {
+  margin-inline-start: auto;
+}
 
-.nav-toggle-btn.active .line-2 { transform: rotate(-45deg); }
+.nav-toggle-btn.active .line-2 {
+  transform: rotate(-45deg);
+}
 
-.nav-toggle-btn.active .line-1 { transform: rotate(45deg) translate(4px, 1.5px); }
+.nav-toggle-btn.active .line-1 {
+  transform: rotate(45deg) translate(4px, 1.5px);
+}
 
-.nav-toggle-btn.active .line-3 { transform: rotate(45deg) translate(-3px, -1px); }
+.nav-toggle-btn.active .line-3 {
+  transform: rotate(45deg) translate(-3px, -1px);
+}
 
 .navbar {
   position: absolute;
@@ -387,9 +388,14 @@ body {
   color: var(--text-white);
 }
 
-.navbar-item { border-block-start: 1px solid var(--border-space-cadet); }
+.navbar-item {
+  border-block-start: 1px solid var(--border-space-cadet);
+}
 
-.navbar-item:last-child { border-block-end: 1px solid var(--border-space-cadet); }
+.navbar-item:last-child {
+  border-block-end: 1px solid var(--border-space-cadet);
+}
+
 
 
 
@@ -958,27 +964,28 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+/**
+ * HEADER
+ */
 
-  .nav-toggle-btn { display: none; }
+ .nav-toggle-btn { display: none; }
 
-  .navbar,
-  .navbar.active {
-    all: unset;
-    display: block;
-  }
-
-  .navbar-item,
-  .navbar-item:last-child { border: none; }
-
-  .navbar-list { display: flex; }
-
-  .header .btn {
-    display: grid;
-    text-align: center;
-  }
+ .navbar,
+ .navbar.active {
+   all: unset;
+   display: block;
+ }
+ 
+ .navbar-item,
+ .navbar-item:last-child { border: none; }
+ 
+ .navbar-list { display: flex; }
+ 
+ .header .btn {
+   display: grid;
+   text-align: center;
+ }
+ 
 
 
 
