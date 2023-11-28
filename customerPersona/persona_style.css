@@ -54,3 +54,33 @@ strong {
 .name-text h2 {
     margin: 0;  /* Resetting any default margins */
 }
+
+.persona-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.persona-card {
+    width: calc(33% - 20px); /* Three cards per row, adjust as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.persona-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.persona-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
