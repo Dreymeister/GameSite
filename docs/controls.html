@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Control Libraries - GameSite</title>
+  <title>GameSite - New Games</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 
 <body>
 
-<!-- NavBar -->
+  <!-- NavBar -->
 
   <header class="header active" data-header>
     <div class="container">
@@ -26,15 +26,19 @@
           <li class="navbar-item">
             <a href="index.html" class="navbar-link" data-nav-link>home</a>
           </li>
+      
           <li class="navbar-item">
             <a href="upload.html" class="navbar-link" data-nav-link>upload</a>
           </li>
+      
           <li class="navbar-item">
             <a href="controls.html" class="navbar-link" data-nav-link>controls</a>
           </li>
+
           <li class="navbar-item">
-            <a href="newgames.html" class="navbar-link" data-nav-link>new games</a>
+            <a href="console.html" class="navbar-link" data-nav-link>console</a>
           </li>
+      
         </ul>
       </nav>
       <a href="upload.html" class="btn" data-btn>request to upload</a>
@@ -46,131 +50,74 @@
     </div>
   </header>
 
-<!-- Main Title -->
+  <!-- Game Title & Desc. -->
 
-<div class="hero has-before" id="home">
+  <style>
+    .hero.has-before {
+      padding-top: 40px; /* Adjust as needed */
+      padding-bottom: 40px; /* Adjust as needed */
+    }
+  </style>
+
+  <div class="hero has-before" id="home">
     <div class="container">
 
-        <h2 class="h2 section-title" data-reveal="bottom">
-          Gaming Console Controls Library
-        </h2>
-  
-        <p class="section-text" data-reveal="bottom">
-          Controller Guides for All Consoles
-        </p>
-        <br>
+      <h2 class="h2 section-title" data-reveal="bottom">
+        New Games Featured on GameSite
+      </h2>
+      <br>
 
     </div>
   </div>
 
-<!-- Card Titles -->
+  <!-- Main Content -->
 
-<section class="section news" aria-label="our latest news" id="home">
-  <div class="container" style="background-color: rgb(34, 34, 109); padding: 5em; border-radius: 15px;">
+  <!-- Styling -->
 
-        <ul class="news-list">
+  <style>
+    .image-gallery {
+      display: flex;
+    }
 
-            <li data-reveal="bottom">
-                <div class="news-card">
+    .image-item {
+      width: 33.33%;
+      box-sizing: border-box;
+      padding: 5px;
+    }
 
-                    <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                        <img src="./assets/images/console-1.jpg" width="600" height="400" loading="lazy"
-                          alt="Innovative Business All Over The World." class="img-cover">
-                      </figure>
+    .image-item img {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+      border: 5px solid white; /* Add a white border to the images */
+    }
+  </style>
 
-                    <div class="card-content">
+  <!-- Games -->
 
-                        <a href="#" class="card-tag">Xbox Series X/S</a>
-
-                        <ul class="card-meta-list">
-                            <!-- ... -->
-                        </ul>
-
-                        <h3 class="h3">
-                            <a href="#" class="card-title">Xbox X/S Series Control Library</a>
-                        </h3>
-
-                        <p class="card-text">
-                            Below is a list of currently supported games.
-                        </p>
-                        <br>
-                        <ul class="game-links">
-                            <li><a href="xbox-game1.html">Mortal Kombat 11</a></li>
-                            <li><a href="xbox-game2.html">Naruto Fighters 4</a></li>
-                            <li><a href="xbox-game3.html">Motral Kombat 1</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li data-reveal="bottom">
-                <div class="news-card">
-                    <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                        <img src="./assets/images/console-2.jpg" width="600" height="400" loading="lazy"
-                          alt="Innovative Business All Over The World." class="img-cover">
-                      </figure>
-                    <div class="card-content">
-
-                        <a href="#" class="card-tag">Nintendo Switch</a>
-
-                        <ul class="card-meta-list">
-                            <!-- ... -->
-                        </ul>
-
-                        <h3 class="h3">
-                            <a href="#" class="card-title">Nintendo Switch Control Library</a>
-                        </h3>
-
-                        <p class="card-text">
-                            Below is a list of currently supported games.
-                        </p>
-                        <br>
-                        <ul class="game-links">
-                            <li><a href="switch-game1.html">Super Smash Melee</a></li>
-                            <li><a href="switch-game2.html">Nickalodeon Brawl</a></li>
-                            <li><a href="switch-game3.html">Castle Crashers 3</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li data-reveal="bottom">
-                <div class="news-card">
-
-                    <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                        <img src="./assets/images/console-3.jpg" width="600" height="400" loading="lazy"
-                          alt="Innovative Business All Over The World." class="img-cover">
-                      </figure>
-
-                    <div class="card-content">
-
-                        <a href="#" class="card-tag">PlayStation 4/5</a>
-
-                        <ul class="card-meta-list">
-                            <!-- ... -->
-                        </ul>
-
-                        <h3 class="h3">
-                            <a href="#" class="card-title">Playstation Library</a>
-                        </h3>
-
-                        <p class="card-text">
-                            Below is a list of currently supported games.
-                        </p>
-                        <br>
-                        <ul class="game-links">
-                            <li><a href="ps-game1.html">Playstation All Stars</a></li>
-                            <li><a href="ps-game2.html">CapCom Ultimates</a></li>
-                            <li><a href="ps-game3.html">Street Fighter</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-        </ul>
-
+  <section class="section new-games" aria-label="new games" id="new-games">
+    <div class="container">
+      <div class="image-gallery">
+        <!-- Images for the gallery -->
+        <div class="image-item">
+          <a href="game1.html">
+            <img src="assets/images/Games/game1.jpg" alt="Game 1">
+          </a>
+        </div>
+        <div class="image-item">
+          <a href="game2.html">
+            <img src="assets/images/Games/game2.jpg" alt="Game 2">
+          </a>
+        </div>
+        <div class="image-item">
+          <a href="game3.html">
+            <img src="assets/images/Games/game3.jpg" alt="Game 3">
+          </a>
+        </div>
+        <!-- Add more image items as needed -->
+      </div>
     </div>
-</section>
+  </section>
 
 
 <!-- Footer -->
@@ -297,7 +244,7 @@
           <div class="container">
     
             <p class="copyright">
-                &copy; 2023 GamSite - Created by Dreymeister - Inspired by CodeWithSadee via GitHub
+              &copy; 2023 GamSite - Created by Dreymeister - Inspired by CodeWithSadee via GitHub
             </p>
     
           </div>
