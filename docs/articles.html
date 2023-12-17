@@ -135,65 +135,162 @@
   </style>
   
   <div class="hero has-before" id="home">
-    <div class="container">
-      <h2 class="h2 section-title" data-reveal="bottom">
-        REQUEST TO UPLOAD AN IMAGE, GAME DESCRIPTION, PLAYSTYLE, OR TIPS TO GAMESITE!
-      </h2>
-      <br>
-      <p>
-        Our Moderators and Team will Approve or Deny your request. We want what is best for our Gamers!
-      </p>
-      <br>
-    </div>
+    <p class="section-subtitle" data-reveal="bottom">From the desks at GameSite</p>
+
+    <h2 class="h2 section-title" data-reveal="bottom">
+      News And <span class="span">Headlines</span>
+    </h2>
+
+    <p>
+      Check out the latest and greatest combos and newest metas with these new stories!
+    </p>
   </div>
   
   
 
   <!-- Upload Field -->
 
-  <section class="section upload" aria-label="file uploads" id="upload">
-    <div class="container">
-      <form class="upload-form" enctype="multipart/form-data" id="uploadForm">
-        <h2 class="upload-title">Upload a File</h2>
-        <div class="form-group">
-          <label for="fileInput">Upload an image:</label>
-          <input type="file" id="fileInput" name="fileInput" accept=".jpg, .png, .pdf" multiple>
-        </div>
-        <div class="form-group">
-        </br>
-          <h2 class="upload-title">Upload a Game Description, Playstyle, or Tips:</h2>
-          <label for="title">Title:</label>
-          <input type="text" id="title" name="title" placeholder="Enter title">
-        </div>
-        <div class="form-group">
-          <label for="description">Description:</label>
-          <textarea id="description" name="description" rows="4" placeholder="Add a description..."></textarea>
-        </div>
-        <div class="form-group">
-          <label for="playstyle">Playstyle:</label>
-          <input type="text" id="playstyle" name="playstyle" placeholder="Enter playstyle">
-        </div>
-        <div class="form-group">
-          <label for="other">Other:</label>
-          <input type="text" id="other" name="other" placeholder="Enter other details">
-        </div>
-        <button type="button" class="btn btn-primary" onclick="openModal()">Upload</button>
-        <br>
-        <h2 class="upload-title">GameSite takes up to a week to process requests. Thank you for your patience.</h2>
-      </form>
-      <div class="upload-feedback" id="uploadFeedback">
-        <!-- Feedback messages or uploaded file list can be displayed here -->
-      </div>
-      <!-- Modal -->
-      <div class="modal" id="myModal">
-        <div class="modal-content">
-          <span onclick="closeModal()" style="cursor: pointer;">&times;</span>
-          <p>We received your data. Thank you!</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- 
+        - #NEWS
+      -->
 
+      <section class="section news" aria-label="our latest news" id="news">
+        <div class="container">
+          <ul class="news-list">
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="./assets/images/news-1.jpg" width="600" height="400" loading="lazy"
+                    alt="Innovative Business All Over The World." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">Naruto Ultimate Ninja Storm 4</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-01-01">RELEASE 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Prosper Jibunor</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="./article-1.html" class="card-title">How To Become The Greatest Shinobi</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Learn from one of our lead developers here at GameSite!
+                  </p>
+
+                  <a href="./article-1.html" class="link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="./assets/images/news-2.jpg" width="600" height="400" loading="lazy"
+                    alt="How To Start Initiating An Startup In Few Days." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">Smash Brothers - Brawl</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-01-01">Release 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Nintendo Legacy</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="./article-2.html" class="card-title">Newest Ice Climbers Meta?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    We've concluded with the experts on the Ice Climbers newest move set, check it out here!
+                  </p>
+
+                  <a href="./article-2.html" class="link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="./assets/images/news-3.jpg" width="600" height="400" loading="lazy"
+                    alt="Financial Experts Support Help You To Find Out." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">Mortal Kombatt 11</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-01-01">Release 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">GamerSupps Sponsored</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="./article-3.html" class="card-title">Learn Sub-Zero!</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Brought to you by the professionals. Learn the best Sub-Zero combos out there.
+                  </p>
+
+                  <a href="./article-3.html" class="link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
   <!-- Footer -->
 
   <footer>
