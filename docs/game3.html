@@ -16,6 +16,12 @@
 
   <!-- NavBar -->
 
+<!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
   <header class="header active" data-header>
     <div class="container">
       <a href="index.html" class="logo">
@@ -50,239 +56,264 @@
     </div>
   </header>
   
-<!-- Game Title & Desc. -->
+  <!-- Game Title & Desc. -->
 
-<style>
-  .hero.has-before {
-    padding-top: 40px; /* Adjust as needed */
-    padding-bottom: 40px; /* Adjust as needed */
-  }
-</style>
+  <style>
+    .hero.has-before {
+      padding-top: 40px; /* Adjust as needed */
+      padding-bottom: 40px; /* Adjust as needed */
+    }
+  </style>
 
-<div class="hero has-before" id="home">
+  <div class="hero has-before" id="home">
     <div class="container">
 
-        <h2 class="h2 section-title" data-reveal="bottom">
-         Mortal Combat 11 - Xbox
-        </h2>
-  
-        <p>
-          Standard Controls for MK 11, played on Xbox or Microsoft based systems.
-        </p>
-        <br>
+      <h2 class="h2 section-title" data-reveal="bottom">
+        Street Fighter 2 ULTRA
+      </h2>
+
+      <p>
+        Standard Controls for Street Fighter 2 ULTRA.
+      </p>
+      <br>
 
     </div>
   </div>
 
-<!-- Game Information Field -->
-
-<style>
-  .image-columns {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-
-  .column {
-    flex: 0 0 48%; /* Adjust the width of columns */
-  }
-
-  .image-description img {
-    width: 100%; /* Ensure images take full width of their container */
-    max-width: 100%; /* Prevent images from exceeding their original size */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove default space below inline images */
-    margin-bottom: 10px; /* Add space between images and paragraphs */
-  }
-
-  .additional-content {
-    margin-bottom: 20px;
-  }
-</style>
-
-<section class="section upload" aria-label="file uploads" id="upload">
-  <div class="container" style="background-color:hsla(240, 63%, 13%, 1); padding: 5em;">
-
-    <h2 class="upload-title">Mortal Kombat 11</h2>
-    <div class="image-columns">
-      <div class="column">
-        <div class="image-description">
-          <img src="assets/images/MKCover.jpg" alt="MK11XboxCont">
-          <h2 class="upload-title">About:</h2>
-          <p>Mortal Kombat 11" is a popular fighting video game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. It's part of the long-running "Mortal Kombat" series known for its brutal combat, unique characters, and over-the-top finishing moves called "Fatalities." The game features a diverse roster of fighters, each with their own special moves and abilities, and it's known for its engaging single-player story mode as well as its competitive multiplayer gameplay</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="image-description">
-          <img src="assets/images/XboxMK11.png" alt="Image 2">
-          <h2 class="upload-title">Controls:</h2>
-          <p>In "Mortal Kombat 11" on Xbox, the basic controls typically follow a standard configuration:
-            <br>
-            Moving: Use the left analog stick or directional pad.
-            <br>
-            Block: Press and hold the left trigger (LT).
-            <br>
-            Front Punch: Press the X button.
-            <br>
-            Back Punch: Press the Y button.
-            <br>
-            Front Kick: Press the A button.
-            <br>
-            Back Kick: Press the B button.
-            <br>
-            Interact: Press the right bumper (RB).
-            <br>
-            Throw: Press the left bumper (LB).
-            <br>
-            Switch Stance: Press the right trigger (RT).
-            <br>
-            Amplify/Interact/Environment Attack: Press the right trigger (RT) in combination with other buttons.
-            <br>
-            Remember, these controls might slightly vary based on your chosen controller layout or settings within the game. It's a good idea to check the in-game controls menu for precise information.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="additional-content">
-      <p>In "Mortal Kombat 11," controls play a pivotal role as they dictate how players engage within the game. These controls determine move execution, combos, defensive strategies, and character-specific abilities. Mastering these inputs is essential for executing devastating attacks, defending effectively, and learning each character's unique moveset. Precise control execution not only influences competitive play but also enhances the overall gaming experience, making the gameplay more immersive and enjoyable.</p>
-    </div>
-
-    <h2 class="upload-title">Please contact the team at GameSite.nku.edu if you happen to find an error or misconfiguration. Thanks!</h2>
-
+  <!-- Dropdown Select -->
+  <div class="container" style="margin-top: 20px;">
+    <label for="pageSelect">Select a Page:</label>
+    <select id="pageSelect" onchange="changePage()">
+      <option value="0">Nintendo Switch</option>
+    </select>
   </div>
-</section>
 
+  <!-- Game Information Field -->
 
-<!-- Footer -->
+  <style>
+    .image-columns {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
 
-  <footer>
-    <footer class="footer">
+    .column {
+      flex: 0 0 48%; /* Adjust the width of columns */
+    }
 
-        <div class="section footer-top">
-          <div class="container">
-    
-            <div class="footer-brand">
-    
-              <a href="#" class="logo">
-                <img src="./assets/images/gamesite.png" width="150" height="73" loading="lazy" alt="Unigine logo">
+    .image-description img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .additional-content {
+      margin-bottom: 20px;
+    }
+
+    .playstyles-section {
+      margin-top: 20px;
+    }
+  </style>
+
+  <section class="section upload" aria-label="file uploads" id="upload">
+    <div class="container" style="background-color:hsla(240, 63%, 13%, 1); padding: 5em;">
+
+      <div class="image-columns">
+        <div class="column">
+          <div class="image-description">
+            <img src="assets/images/Games/game3.jpg" alt="MK11XboxCont">
+            <!-- The content will be dynamically updated here -->
+            <div id="pageContent"></div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="additional-content">
+            <!-- Additional content for each page -->
+            <h2 class="upload-title" id="aboutTitle">About:</h2>
+            <div id="aboutContent"></div>
+          </div>
+
+          <div class="additional-content">
+            <h2 class="upload-title" id="controlsTitle">Controls:</h2>
+            <div id="controlsContent"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Playstyles Section -->
+      <div class="playstyles-section">
+        <h2 class="upload-title" id="playstylesTitle">Playstyles:</h2>
+        <div id="playstylesContent"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/gamesite.png" width="150" height="73" loading="lazy" alt="Unigine logo">
+          </a>
+
+          <p class="footer-text">
+            Our success in creating gaming solutions for all fighting games. Made by gamers, for gamers.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
               </a>
-    
-              <p class="footer-text">
-                Our success in creating gaming solutions for all fighting games. Made by gamers, for gamers.
-              </p>
-    
-              <ul class="social-list">
-    
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-    
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a>
-                </li>
-    
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                  </a>
-                </li>
-    
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-youtube"></ion-icon>
-                  </a>
-                </li>
-    
-              </ul>
-    
-            </div>
-    
-            <div class="footer-list">
-    
-              <p class="title footer-list-title has-after">Usefull Links</p>
-    
-              <ul>
-    
-                <li>
-                  <a href="#" class="footer-link">Control FAQ</a>
-                </li>
-    
-                <li>
-                  <a href="#" class="footer-link">Help Center</a>
-                </li>
-    
-                <li>
-                  <a href="#" class="footer-link">Privacy and Policy</a>
-                </li>
-    
-                <li>
-                  <a href="#" class="footer-link">Terms of Use</a>
-                </li>
-    
-                <li>
-                  <a href="#" class="footer-link">Contact Us</a>
-                </li>
-    
-              </ul>
-    
-            </div>
-    
-            <div class="footer-list">
-    
-              <p class="title footer-list-title has-after">Contact Us</p>
-    
-              <div class="contact-item">
-                <span class="span">Location:</span>
-    
-                <address class="contact-link">
-                  153 Williamson Plaza, Maggieberg, MT 09514
-                </address>
-              </div>
-    
-              <div class="contact-item">
-                <span class="span">Join Us:</span>
-    
-                <a href="mailto:owena5@nku.edu" class="contact-link">gamesitesupport@nku.edu</a>
-              </div>
-    
-              <div class="contact-item">
-                <span class="span">Phone:</span>
-    
-                <a href="tel:+12345678910" class="contact-link">+1 (234) 555-2134</a>
-              </div>
-    
-            </div>
-    
-            <div class="footer-list">
-    
-              <p class="title footer-list-title has-after">Weekly Newsletter Signup</p>
-    
-              <form action="./index.html" method="get" class="footer-form">
-                <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
-                  class="input-field">
-    
-                <button type="submit" class="btn" data-btn>Subscribe Now</button>
-              </form>
-    
-            </div>
-    
-          </div>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
         </div>
-    
-        <div class="footer-bottom">
-          <div class="container">
-    
-            <p class="copyright">
-              &copy; 2023 GamSite - Created by Dreymeister - Inspired by CodeWithSadee via GitHub
-            </p>
-    
-          </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Useful Links</p>
+
+          <ul>
+
+            <li>
+              <a href="#" class="footer-link">Control FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help Center</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy and Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+
+          </ul>
+
         </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Contact Us</p>
+
+          <div class="contact-item">
+            <span class="span">Location:</span>
+
+            <address class="contact-link">
+              153 Williamson Plaza, Maggieberg, MT 09514
+            </address>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Join Us:</span>
+
+            <a href="mailto:owena5@nku.edu" class="contact-link">gamesitesupport@nku.edu</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Phone:</span>
+
+            <a href="tel:+12345678910" class="contact-link">+1 (234) 555-2134</a>
+          </div>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Weekly Newsletter Signup</p>
+
+          <form action="./index.html" method="get" class="footer-form">
+            <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
+              class="input-field">
+
+            <button type="submit" class="btn" data-btn>Subscribe Now</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 GamSite - Created by Dreymeister - Inspired by CodeWithSadee via GitHub
+        </p>
+
+      </div>
+    </div>
   </footer>
+
+  <script>
+    const pages = [
+      {
+        title: "Street Fighter 2 ULTRA",
+        about: "Ultra Street Fighter II: The Final Challengers is a 2D fighting game developed and published by Capcom for the Nintendo Switch console 1. It was released worldwide on May 26, 2017, to celebrate the 30th anniversary of the Street Fighter series 1. The game is an updated version of 1994’s Super Street Fighter II Turbo and features two graphical styles: classic pixel art and updated high-definition art 12. The game introduces new gameplay mechanics like grapple breaks and re-tunes some aspects of the game’s balance 1. The game can be played in two styles on both graphic and sound settings: the “Classic” graphic mode featuring pixel art graphics of the original game which is played in 4:3 aspect ratio, with the “New Generation” graphic mode featuring the updated high definition graphics of 2008’s Super Street Fighter II Turbo HD Remix and is played in 16:9 widescreen 1. The game supports all control options on the Nintendo Switch console, including play with a single Joy-Con controller 1. The game has a standard roster of nineteen characters, plus one hidden character 1. In addition to all seventeen fighters from Super Turbo, two characters–Evil Ryu and Violent Ken–have been added to the game’s roster 12. Evil Ryu is a version of Street Fighter protagonist Ryu that has succumbed to the evil power Satsui no Hado, while Violent Ken makes his official debut in a Street Fighter game, having previously only appeared in the crossover fighting game SNK vs. Capcom: SVC Chaos 1.",
+        controls: "Front Punch ◻<br>Back Punch X<br>Front Kick △<br>Back Kick O<br>Block R2",
+        playstyles: "Aggressive, Defensive, Balanced."
+      }
+    ];
+
+    function changePage() {
+      const pageSelect = document.getElementById("pageSelect");
+      const selectedIndex = pageSelect.selectedIndex;
+      const playstylesContent = document.getElementById("playstylesContent");
+      const aboutTitle = document.getElementById("aboutTitle");
+      const aboutContent = document.getElementById("aboutContent");
+      const controlsTitle = document.getElementById("controlsTitle");
+      const controlsContent = document.getElementById("controlsContent");
+      const playstylesTitle = document.getElementById("playstylesTitle");
+
+      if (selectedIndex >= 0 && selectedIndex < pages.length) {
+        const selectedPage = pages[selectedIndex];
+        aboutTitle.innerHTML = "About:";
+        aboutContent.innerHTML = `<p>${selectedPage.about}</p>`;
+        controlsTitle.innerHTML = "Controls:";
+        controlsContent.innerHTML = `<p>${selectedPage.controls}</p>`;
+        playstylesTitle.innerHTML = "Playstyles:";
+        playstylesContent.innerHTML = `<p>${selectedPage.playstyles}</p>`;
+      }
+    }
+
+    // Trigger changePage function on page load to display default content
+    document.addEventListener("DOMContentLoaded", changePage);
+  </script>
 
   <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
