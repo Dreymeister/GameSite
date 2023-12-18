@@ -31,3 +31,5 @@ At GameSite, we are passionate about providing gamers with the resources they ne
 Join GameSite today and elevate your fighting game experience!
 
 (NKU ASE 330 Final Project - Andrey Owen, Brandon Cooper, Logan Poe, Prosper Jibunor )
+
+## Official Demo of the website can be found at: https://dreymeister.github.io/GameSite/
